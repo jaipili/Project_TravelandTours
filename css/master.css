@@ -18,45 +18,39 @@ body{
 
  /* Full width */
  width:100%;
-
- /* Center and scale the image nicely */
- /* background-position: center; */
  background-repeat: no-repeat;
  background-size: cover;
- /* padding: 5% 0; */
- /* background-repeat: no-repeat; */
 }
 /* -----------------------END----------------------- */
 
 /* -----------------------Heading Section----------------------- */
 .heading {
-  /* background-color: rgb(0,0,0); Fallback color
-  background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  padding: 20px;
-  */
-
   color: white;
   font-weight: bold;
   position: relative;
   z-index: 1;
   text-align: center;
+  padding-top: 3%;
 }
 
 .heading h1{
   font-size: 7rem;
-  line-height: 1.5;
-  font-weight: bolder;
+  line-height: 1.10;
+  font-family: 'Dancing Script', cursive;
+  color: #fddb3a;
+  margin-bottom: 0;
 }
 
+.heading h4{
+  background-color: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+  font-size: 1.25rem;
+  font-family: 'Barlow', sans-serif;
+}
 /* Heading's Blur */
 .blur {
   position: relative;
-  /* display: inline-block; /* make the div not 100% */ */
 }
+
 /* the 'blur' effect */
 .blur:before {
   content: '';
@@ -69,10 +63,6 @@ body{
   left: 0;
 }
 /* -----------------------END----------------------- */
-
-/* .col > button{
-  margin: 5px 10px;
-} */
 
 /* Services Section */
 #services{
