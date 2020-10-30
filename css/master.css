@@ -91,7 +91,26 @@ body{
   width: 30%;
 }
 
-/* Featured-products */
+/* Featured-products Section*/
 #featured-products{
   background-color: #ffc93c;
+}
+
+.footer-container{
+  padding: 2.5% 10% 5%;
+}
+
+.footer-list{
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+.footer-items{
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.question-text{
+  text-align: center;
 }
