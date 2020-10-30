@@ -91,9 +91,30 @@ body{
   width: 30%;
 }
 
+/* About Us Section */
+#about-us{
+  background-color: #ffc93c;
+}
+
+.aboutuscontainer{
+  padding: 5% 2%;
+}
+
+.logo{
+  height: 50vh;
+  display: inline;
+  padding: 0 auto;
+}
+
 /* Featured-products Section*/
 #featured-products{
-  background-color: #ffc93c;
+  background-color: #ebecf1;
+}
+
+/* Footer Section */
+#footer{
+  background-color: #07689f;
+  color: #fff;
 }
 
 .footer-container{
@@ -109,6 +130,14 @@ body{
 .footer-items{
   display: inline-block;
   padding: 0 5px;
+}
+
+.footer-items a{
+  color: black;
+}
+
+.footer-items a:hover{
+  color: #fff;
 }
 
 .question-text{
